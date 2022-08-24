@@ -1,9 +1,12 @@
 import './App.css'
+import Navigation from './components/Navigation.tsx'
 
 function App() {
-
   return (
-    <div>Simons World</div>
+    <>
+        <Navigation />
+        <div>Simons World</div>
+    </>
   )
 }
 
