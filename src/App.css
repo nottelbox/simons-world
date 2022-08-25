@@ -1,8 +1,8 @@
 body {
     background-color: #00F;
+    color: #F00;
 }
 
 div {
-    color: #F00;
-    text-align: center;
+    // text-align: center;
 }

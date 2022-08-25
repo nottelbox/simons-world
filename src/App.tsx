@@ -1,13 +1,14 @@
-import './App.css'
-import Navigation from './components/Navigation.tsx'
+import './App.css';
+import Navigation from './components/Navigation.tsx';
+import { Outlet } from 'react-router-dom';
 
 function App() {
   return (
     <>
         <Navigation />
-        <div>Simons World</div>
+        <Outlet />
     </>
-  )
+   );
 }
 
-export default App
+export default App;
