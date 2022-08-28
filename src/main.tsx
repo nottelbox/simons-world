@@ -1,17 +1,18 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import './index.css'
+import React from 'react';
+import ReactDOM from 'react-dom/client';
 import { 
     BrowserRouter,
     Routes,
     Route,
 } from 'react-router-dom';
-import App from './App'
-import Shop from './routes/Shop'
-import Blog from './routes/Blog'
+import App from './App';
+import Shop from './routes/Shop';
+import Blog from './routes/Blog';
+import './sass/main.scss';
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
+    <div className="root">
     <BrowserRouter>
     <Routes>
         <Route path='/' element={<App />}>
@@ -20,5 +21,6 @@ ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
         </Route>
     </Routes>
     </BrowserRouter>
+    </div>
   </React.StrictMode>
-)
+);
