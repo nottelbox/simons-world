@@ -12,7 +12,6 @@ import './sass/main.scss';
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
-    <div className="root">
     <BrowserRouter>
     <Routes>
         <Route path='/' element={<App />}>
@@ -21,6 +20,5 @@ ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
         </Route>
     </Routes>
     </BrowserRouter>
-    </div>
   </React.StrictMode>
 );
